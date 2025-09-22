@@ -1,0 +1,66 @@
+/* MainContent.css */
+
+.main-content {
+  padding: 50px 0;
+}
+
+.text-content {
+  text-align: center;
+}
+
+.text-content h2 {
+  color: #007bff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  color: #555;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.image-content img:hover {
+  transform: scale(1.05);
+}
+
+.additional-content {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.additional-content h3 {
+  color: #007bff;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.additional-content p {
+  color: #555;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.additional-content .MuiButton-root {
+  margin-top: 20px;
+  padding: 12px 40px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.additional-content .MuiButton-root:hover {
+  background-color: #0056b3;
+}
